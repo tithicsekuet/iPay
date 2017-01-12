@@ -15,6 +15,16 @@
 		0FE59AE81E274A9F0008888C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE59AE61E274A9F0008888C /* LaunchScreen.storyboard */; };
 		0FE59AF31E274A9F0008888C /* iPayDemoProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59AF21E274A9F0008888C /* iPayDemoProjectTests.m */; };
 		0FE59AFE1E274A9F0008888C /* iPayDemoProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59AFD1E274A9F0008888C /* iPayDemoProjectUITests.m */; };
+		0FE59B0E1E2761100008888C /* CountryInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59B0C1E2761100008888C /* CountryInfoTableViewCell.m */; };
+		0FE59B0F1E2761100008888C /* CountryInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE59B0D1E2761100008888C /* CountryInfoTableViewCell.xib */; };
+		0FE59B231E2762780008888C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59B171E2762780008888C /* AFHTTPSessionManager.m */; };
+		0FE59B241E2762780008888C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59B1A1E2762780008888C /* AFNetworkReachabilityManager.m */; };
+		0FE59B251E2762780008888C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59B1C1E2762780008888C /* AFSecurityPolicy.m */; };
+		0FE59B261E2762780008888C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59B1E1E2762780008888C /* AFURLRequestSerialization.m */; };
+		0FE59B271E2762780008888C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59B201E2762780008888C /* AFURLResponseSerialization.m */; };
+		0FE59B281E2762780008888C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE59B221E2762780008888C /* AFURLSessionManager.m */; };
+		0FE59B2C1E278AFE0008888C /* callingCode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE59B2A1E278AFE0008888C /* callingCode@2x.png */; };
+		0FE59B2D1E278AFE0008888C /* capitalCity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE59B2B1E278AFE0008888C /* capitalCity@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,24 @@
 		0FE59AF91E274A9F0008888C /* iPayDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPayDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE59AFD1E274A9F0008888C /* iPayDemoProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPayDemoProjectUITests.m; sourceTree = "<group>"; };
 		0FE59AFF1E274A9F0008888C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE59B0B1E2761100008888C /* CountryInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryInfoTableViewCell.h; path = ../CountryInfoTableViewCell.h; sourceTree = "<group>"; };
+		0FE59B0C1E2761100008888C /* CountryInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryInfoTableViewCell.m; path = ../CountryInfoTableViewCell.m; sourceTree = "<group>"; };
+		0FE59B0D1E2761100008888C /* CountryInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CountryInfoTableViewCell.xib; path = ../CountryInfoTableViewCell.xib; sourceTree = "<group>"; };
+		0FE59B161E2762780008888C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0FE59B171E2762780008888C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		0FE59B181E2762780008888C /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		0FE59B191E2762780008888C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		0FE59B1A1E2762780008888C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		0FE59B1B1E2762780008888C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		0FE59B1C1E2762780008888C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		0FE59B1D1E2762780008888C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		0FE59B1E1E2762780008888C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		0FE59B1F1E2762780008888C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		0FE59B201E2762780008888C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		0FE59B211E2762780008888C /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		0FE59B221E2762780008888C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		0FE59B2A1E278AFE0008888C /* callingCode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "callingCode@2x.png"; sourceTree = "<group>"; };
+		0FE59B2B1E278AFE0008888C /* capitalCity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capitalCity@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +129,9 @@
 		0FE59AD71E274A9F0008888C /* iPayDemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				0FE59ADB1E274A9F0008888C /* AppDelegate.h */,
-				0FE59ADC1E274A9F0008888C /* AppDelegate.m */,
-				0FE59ADE1E274A9F0008888C /* ViewController.h */,
-				0FE59ADF1E274A9F0008888C /* ViewController.m */,
-				0FE59AE11E274A9F0008888C /* Main.storyboard */,
+				0FE59B141E2761F50008888C /* ThirdParty */,
+				0FE59B131E2761D80008888C /* iPayView */,
+				0FE59B101E2761770008888C /* iPayController */,
 				0FE59AE41E274A9F0008888C /* Assets.xcassets */,
 				0FE59AE61E274A9F0008888C /* LaunchScreen.storyboard */,
 				0FE59AE91E274A9F0008888C /* Info.plist */,
@@ -117,6 +143,8 @@
 		0FE59AD81E274A9F0008888C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0FE59B2A1E278AFE0008888C /* callingCode@2x.png */,
+				0FE59B2B1E278AFE0008888C /* capitalCity@2x.png */,
 				0FE59AD91E274A9F0008888C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +166,56 @@
 				0FE59AFF1E274A9F0008888C /* Info.plist */,
 			);
 			path = iPayDemoProjectUITests;
+			sourceTree = "<group>";
+		};
+		0FE59B101E2761770008888C /* iPayController */ = {
+			isa = PBXGroup;
+			children = (
+				0FE59ADB1E274A9F0008888C /* AppDelegate.h */,
+				0FE59ADC1E274A9F0008888C /* AppDelegate.m */,
+				0FE59ADE1E274A9F0008888C /* ViewController.h */,
+				0FE59ADF1E274A9F0008888C /* ViewController.m */,
+				0FE59B0B1E2761100008888C /* CountryInfoTableViewCell.h */,
+				0FE59B0C1E2761100008888C /* CountryInfoTableViewCell.m */,
+			);
+			name = iPayController;
+			sourceTree = "<group>";
+		};
+		0FE59B131E2761D80008888C /* iPayView */ = {
+			isa = PBXGroup;
+			children = (
+				0FE59AE11E274A9F0008888C /* Main.storyboard */,
+				0FE59B0D1E2761100008888C /* CountryInfoTableViewCell.xib */,
+			);
+			name = iPayView;
+			sourceTree = "<group>";
+		};
+		0FE59B141E2761F50008888C /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0FE59B151E2762780008888C /* AFNetworking */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		0FE59B151E2762780008888C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0FE59B161E2762780008888C /* AFHTTPSessionManager.h */,
+				0FE59B171E2762780008888C /* AFHTTPSessionManager.m */,
+				0FE59B181E2762780008888C /* AFNetworking.h */,
+				0FE59B191E2762780008888C /* AFNetworkReachabilityManager.h */,
+				0FE59B1A1E2762780008888C /* AFNetworkReachabilityManager.m */,
+				0FE59B1B1E2762780008888C /* AFSecurityPolicy.h */,
+				0FE59B1C1E2762780008888C /* AFSecurityPolicy.m */,
+				0FE59B1D1E2762780008888C /* AFURLRequestSerialization.h */,
+				0FE59B1E1E2762780008888C /* AFURLRequestSerialization.m */,
+				0FE59B1F1E2762780008888C /* AFURLResponseSerialization.h */,
+				0FE59B201E2762780008888C /* AFURLResponseSerialization.m */,
+				0FE59B211E2762780008888C /* AFURLSessionManager.h */,
+				0FE59B221E2762780008888C /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +327,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE59B2D1E278AFE0008888C /* capitalCity@2x.png in Resources */,
+				0FE59B0F1E2761100008888C /* CountryInfoTableViewCell.xib in Resources */,
 				0FE59AE81E274A9F0008888C /* LaunchScreen.storyboard in Resources */,
 				0FE59AE51E274A9F0008888C /* Assets.xcassets in Resources */,
+				0FE59B2C1E278AFE0008888C /* callingCode@2x.png in Resources */,
 				0FE59AE31E274A9F0008888C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +357,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE59B251E2762780008888C /* AFSecurityPolicy.m in Sources */,
+				0FE59B271E2762780008888C /* AFURLResponseSerialization.m in Sources */,
+				0FE59B0E1E2761100008888C /* CountryInfoTableViewCell.m in Sources */,
 				0FE59AE01E274A9F0008888C /* ViewController.m in Sources */,
+				0FE59B231E2762780008888C /* AFHTTPSessionManager.m in Sources */,
+				0FE59B281E2762780008888C /* AFURLSessionManager.m in Sources */,
 				0FE59ADD1E274A9F0008888C /* AppDelegate.m in Sources */,
+				0FE59B241E2762780008888C /* AFNetworkReachabilityManager.m in Sources */,
 				0FE59ADA1E274A9F0008888C /* main.m in Sources */,
+				0FE59B261E2762780008888C /* AFURLRequestSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +516,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L89LNAQUFE;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = iPayDemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream71.iPayDemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,7 +532,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L89LNAQUFE;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = iPayDemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream71.iPayDemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
